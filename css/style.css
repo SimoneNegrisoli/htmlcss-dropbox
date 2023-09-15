@@ -41,6 +41,18 @@ a{
     text-decoration: none;
 }
 
+/* UTILITIES */
+
+.botton-smal-blue{
+    padding: 5px;
+    background-color: var(--color-bg-botton);
+    color: var(--color-white);
+    display: block;
+    border: 0;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
 /* FLEX */
 
 .d-felx{
@@ -59,6 +71,7 @@ a{
 /* HEADER */
 header{
     color: var(--color-black);
+    width: 100%;
 }
 nav{
     background-color: var(--color-white);
@@ -69,14 +82,14 @@ nav{
 #hero{
     background-color: var(--color-bg-hero);
 }
-nav ul li {
+.pointer{
     padding: 10px;
     cursor: pointer;
 }
 
 .text-nav{
     color: grey;
-    font-size: 0.9em;
+    font-size: 0.8rem;
 }
 
 
