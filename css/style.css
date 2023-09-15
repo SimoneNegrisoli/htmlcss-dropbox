@@ -1,0 +1,26 @@
+/* GENERAL */
+
+:root {
+	--color-white: #ffffff;
+	--color-bg-botton: #0061ff;
+	--color-black: #000000;
+	--color-bg-hero: #b4d0e7;
+	--color-designit: #a2d39b;
+	--color-asu: #61082b;
+	--color-uf-florida: #0093ce;
+	--color-topps: #ff1c1c;
+	--color-deisgnit-darker: #f5f5f5;
+	--color-world-bicycle-relife: #d5001f;
+	--color-lonely planet: #0d2481;
+	--color-clear-channel: #ffd830;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
