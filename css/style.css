@@ -22,7 +22,6 @@
     box-sizing: border-box;
 }
 
-
 .debug{
     border: 1px solid red;
 }
@@ -33,10 +32,29 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* FLEX */
 
+.d-felx{
+    display: flex;
+    flex-flow: row;
+}
+.align-center{
+    align-items: center;
+    align-content: center;
+}
 
-
+.justify-between{
+    justify-content: space-between;
+}
 
 /* HEADER */
 header{
@@ -45,11 +63,22 @@ header{
 nav{
     background-color: var(--color-white);
     color: var(--color-text-gray-nav);
+    padding: 10px;
 }
 
 #hero{
     background-color: var(--color-bg-hero);
 }
+nav ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text-nav{
+    color: grey;
+    font-size: 0.9em;
+}
+
 
 /* MAIN */
 main{
