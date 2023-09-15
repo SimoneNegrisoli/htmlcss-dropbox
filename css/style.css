@@ -4,6 +4,7 @@
 	--color-white: #ffffff;
 	--color-bg-botton: #0061ff;
 	--color-black: #000000;
+    --color-text-gray-nav: #A9A9A9;
 	--color-bg-hero: #b4d0e7;
 	--color-designit: #a2d39b;
 	--color-asu: #61082b;
@@ -11,7 +12,7 @@
 	--color-topps: #ff1c1c;
 	--color-deisgnit-darker: #f5f5f5;
 	--color-world-bicycle-relife: #d5001f;
-	--color-lonely planet: #0d2481;
+	--color-lonely-planet: #0d2481;
 	--color-clear-channel: #ffd830;
 }
 
@@ -21,6 +22,45 @@
     box-sizing: border-box;
 }
 
+
+.debug{
+    border: 1px solid red;
+}
+
+
+
 body{
     font-family: 'Inter', sans-serif;
 }
+
+/* FLEX */
+
+
+
+
+/* HEADER */
+header{
+    color: var(--color-black);
+}
+nav{
+    background-color: var(--color-white);
+    color: var(--color-text-gray-nav);
+}
+
+#hero{
+    background-color: var(--color-bg-hero);
+}
+
+/* MAIN */
+main{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+
+/* FOOTER */
+footer{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
