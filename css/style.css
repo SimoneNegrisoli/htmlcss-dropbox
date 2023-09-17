@@ -98,6 +98,16 @@ a i{
     cursor: pointer;
 }
 
+.buy-now{
+    text-decoration: underline;
+    color: var(--color-bg-botton);
+    padding: 5px 5px 5px 0 ;
+    cursor: pointer;
+}
+
+
+
+
 
 /* FLEX */
 
@@ -195,17 +205,17 @@ main{
     background-color: var(--color-white);
     color: var(--color-black);
 }
-
+    /* SECTION1 */
 .section1 h2{
     font-size: 2.7rem;
 }
 .btn-billing .btn-annual-billing{
     padding-right: 50px;
 }
-
-.box-plan{
+    /* SECTION1-BOX */
+.box-border{
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: calc(80% / 3);
+    width: calc(90% / 3);
 }
 
 .box-plan ul li{
@@ -217,24 +227,49 @@ main{
     text-align: center;
     padding: 10px;
 }
-.individual-bottom{
+.individual-center{
     padding: 30px 15px;
 }
-.individual-bottom h3{
+
+.individual-center h3{
     padding-bottom: 20px;
     font-size: 2em;
+}
+.individual-center ul li{
+    padding: 10px 0;
+    line-height: 1.4em;
 }
 .subscription-time{
     color: var(--color-text-gray-nav);
     padding: 20px 0 40px 0;
 }
 
+.list{
+    padding-left: 25px;
+    margin-left: 0;
+/* chiedere metodo per non far uscire i font awesome (che ho sosituito al posto dei puntini) della ul dal div e farli allineare per bene e come mai le icone check invece non fanno probelimi*/
+}
 
+.list-check{
+    margin-left: 0;
+}
 
+.btn-buy-now span{
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
 
+.individual-bottom ul li i {
+    color: var(--color-bg-botton);
+}
+.individual-bottom ul li{
+    padding: 10px 0;
+    line-height: 1.4em;
 
-
-
+}
+.second-title-box{
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -247,4 +282,6 @@ footer{
     background-color: var(--color-black);
     color: var(--color-white);
 }
+
+
 
