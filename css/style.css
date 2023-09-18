@@ -92,7 +92,9 @@ a i{
 .padd-wide{
     padding: 40px;
 }
-
+.padd-tb-wide{
+    padding: 100px 0 ;
+}
 
 .text-center{
     text-align: center;
@@ -301,12 +303,10 @@ main{
     background-color: var(--color-white);
     color: var(--color-black);
     display: block;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: -2px 2px rgba(0, 0, 0, 0.4);
 }
-
 .text-section2 h3{
     font-size: 2em;
 }
@@ -383,7 +383,24 @@ main{
 .clearch{
     background-color: var(--color-clear-channel);
 }
-
+    /* SECTION6 */
+#sponsorship{
+    background-color: var(--color-bg-hero);
+}
+#sponsorship h3{
+    color: #61082B;
+    font-size: 2em;
+}
+.sponsorship-title{
+    width: 40%;
+    line-height: 2.8em;
+}
+.sponsorship-btn{
+    width: 40%;
+}
+.padd-btn{
+    padding: 10px 30px;
+}
 
 
 /* FOOTER */
