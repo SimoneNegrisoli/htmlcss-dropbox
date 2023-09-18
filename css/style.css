@@ -401,8 +401,19 @@ main{
 .padd-btn{
     padding: 10px 30px;
 }
+    /* SECTION7 */
 
+#faq h4{
+    font-size: 2em;
+    line-height: 3em;
+}
+.border-btm{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
 
+.faq-question details p{
+    margin-top: 30px;
+} 
 /* FOOTER */
 footer{
     background-color: var(--color-black);
