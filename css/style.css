@@ -309,7 +309,17 @@ main{
     font-size: 2em;
 }
 
-
+    /* SECTION3 */
+.dropbox-tool{
+    width: calc(100% / 3);
+}
+.tool-img img{
+    width: 100%;
+}
+.text-img h5{
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
 
 /* FOOTER */
 footer{
