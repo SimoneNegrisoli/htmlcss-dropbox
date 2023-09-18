@@ -82,7 +82,9 @@ a i{
 .padding-left{
     padding-left: 20px;
 }
-
+.padding-right{
+    padding-right: 20px;
+}
 .padd{
     padding: 20px;
 }
@@ -91,6 +93,9 @@ a i{
 }
 .padd-wide{
     padding: 40px;
+}
+.padd-tb-m{
+    padding: 50px 0;
 }
 .padd-tb-wide{
     padding: 100px 0 ;
@@ -414,11 +419,23 @@ main{
 .faq-question details p{
     margin-top: 30px;
 } 
+
 /* FOOTER */
 footer{
     background-color: var(--color-black);
     color: var(--color-white);
 }
-
-
-
+footer h5{
+    font-size: 1.3em;
+    padding: 15px 0;
+}
+footer ul li{
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+.border-top{
+    border-top: 1px solid white;
+}
+.footer-bottom{
+    width: 12%;
+}
