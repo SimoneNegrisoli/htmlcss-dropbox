@@ -72,9 +72,6 @@ a i{
     border: 1px solid #1971FF;
     box-shadow: 0 0 2px #297AFF;
 }
-.btn-special:hover{
-    
-}
 .text-btn-size{
     font-size: 1rem;
 }
@@ -131,6 +128,15 @@ a i{
     color: var(--color-bg-botton);
     padding: 5px 5px 5px 0 ;
     cursor: pointer;
+}
+
+.buy-now:hover{
+    text-decoration: none;
+    background-color: #1971FF;
+    color: var(--color-white);
+    border: 1px solid #1971FF;
+    box-shadow: 0 0 2px #297AFF;
+
 }
 
 .cursor{
@@ -319,6 +325,14 @@ main{
     font-size: 1rem;
     cursor: pointer;
 }
+
+.btn-white:hover{
+    background-color: #6BAA75;
+    border: 1px solid #6BAA75;
+    color: var(--color-white);
+    box-shadow: 0 0 2px #85B98D;
+}
+
 .text-section2 h3{
     font-size: 2em;
 }
@@ -405,6 +419,9 @@ main{
 .clearch{
     background-color: var(--color-clear-channel);
 }
+    /* bonus quadratoni */
+
+
     /* SECTION6 */
 #sponsorship{
     background-color: var(--color-bg-hero);
