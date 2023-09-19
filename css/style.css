@@ -250,6 +250,25 @@ nav{
     padding-top: 20px;
 }
 
+/* bonus menu a tendina */
+
+.menu-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    background-color: #F1EEE8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: var(--color-black);
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+  
+
 
 /* MAIN */
 main{
@@ -524,4 +543,3 @@ footer ul li a:hover{
 .footer-bottom a:hover{
     text-decoration: underline;
 }
-
