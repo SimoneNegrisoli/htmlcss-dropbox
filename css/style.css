@@ -217,6 +217,11 @@ nav{
 }
 
 
+nav ul li:hover a {
+    color: var(--color-bg-botton);
+    text-shadow: 0 0 1 1 #297AFF ;
+}
+
 .text-nav{
     color: grey;
     font-size: 0.8rem;
@@ -250,24 +255,39 @@ nav{
     padding-top: 20px;
 }
 
-/* bonus menu a tendina */
+/* bonus menu a tendina
 
+header ul{
+    overflow: hidden;
+}
+header ul li{
+    height: 65px;
+    line-height: 65px;
+}
 .menu-dropdown{
+    overflow: hidden;
     position: relative;
-    display: inline-block;
+}
+.menu-dropdown:hover{
+    background-color: #F1EEE8;
 }
 .dropdown-content{
     display: none;
+    min-width: 150px;
     background-color: #F1EEE8;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-.dropdown-content a {
     color: var(--color-black);
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-  
+.dropdown-content a{
+    display: block;
+    
+}
+.menu-dropdown:hover .dropdown-content{
+    display: block;
+} */
 
 
 /* MAIN */
