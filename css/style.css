@@ -51,7 +51,7 @@ a i{
 }
 
 .narrow-container{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -123,9 +123,6 @@ a i{
     padding: 5px 5px 5px 0 ;
     cursor: pointer;
 }
-
-
-
 
 
 /* FLEX */
@@ -342,24 +339,35 @@ main{
     height: 50%;
     position: relative;
 }
-.designit-central{
-    border-bottom: 1px solid black;
-    
-}
+
 .brands-logo img{
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
-
 .designit-central img{
     width: 100%;
 }
-.text-designit p{
-    overflow: auto;
+.text-designit{
+    overflow-y: auto;
+    height: 100%;
 }
+.text-designit p{
+    height: 100%;
+    overflow-y: auto;
+}
+.text-designit p span{
+    display: inline-block;
+}
+.border-t-b{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+}
+
+
     /* brands colors */
 .designit-central-bg{
     background-color: var(--color-deisgnit-darker);
@@ -436,6 +444,7 @@ footer ul li{
 .border-top{
     border-top: 1px solid white;
 }
+
 .footer-bottom{
     width: 12%;
 }
