@@ -65,6 +65,15 @@ a i{
     border: 0;
     font-size: 0.8rem;
     cursor: pointer;
+    border: 1px solid var(--color-bg-botton);
+}
+.botton-blue:hover{
+    background-color: #1971FF;
+    border: 1px solid #1971FF;
+    box-shadow: 0 0 2px #297AFF;
+}
+.btn-special:hover{
+    
 }
 .text-btn-size{
     font-size: 1rem;
@@ -124,6 +133,9 @@ a i{
     cursor: pointer;
 }
 
+.cursor{
+    cursor: pointer;
+}
 
 /* FLEX */
 
@@ -156,7 +168,7 @@ header{
     color: var(--color-black);
     width: 100%;
     background-color: var(--color-bg-hero);
-
+    box-shadow: 0 2px 8px gray;
 }
 nav{
     background-color: var(--color-white);
@@ -168,6 +180,7 @@ nav{
     height: 65px;
     z-index: 1000;
     width: 100%;
+    box-shadow: 0 2px 8px gray;
 }
 
 #hero{
@@ -210,9 +223,7 @@ nav{
 }
 
 .arrow-down{
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
+    padding-top: 20px;
 }
 
 
@@ -233,7 +244,6 @@ main{
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: calc(90% / 3);
 }
-
 .box-plan ul li{
     padding: 20px 0;
 }
@@ -334,12 +344,14 @@ main{
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
-.brands-logo, .designit-central{
+.brands-logo{
     width: 50%;
     height: 50%;
     position: relative;
 }
-
+.designit-central{
+    width: 50%;
+}
 .brands-logo img{
     width: 50%;
     position: absolute;
@@ -351,14 +363,11 @@ main{
 .designit-central img{
     width: 100%;
 }
-.text-designit{
+.designit-container{
     overflow-y: auto;
     height: 100%;
 }
-.text-designit p{
-    height: 100%;
-    overflow-y: auto;
-}
+
 .text-designit p span{
     display: inline-block;
 }
@@ -448,3 +457,18 @@ footer ul li{
 .footer-bottom{
     width: 12%;
 }
+
+footer ul li a{
+    color: var(--color-white);
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer-bottom a{
+    color: var(--color-white);
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+
