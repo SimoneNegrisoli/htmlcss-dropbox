@@ -72,6 +72,40 @@ a i{
     border: 1px solid #1971FF;
     box-shadow: 0 0 2px #297AFF;
 }
+
+.buy-now{
+    text-decoration: underline;
+    color: var(--color-bg-botton);
+    padding: 5px 5px 5px 0 ;
+    cursor: pointer;
+}
+
+.buy-now:hover{
+    text-decoration: none;
+    background-color: #1971FF;
+    color: var(--color-white);
+    border: 1px solid #1971FF;
+    box-shadow: 0 0 2px #297AFF;
+
+}
+
+.btn-white{
+    padding: 5px 10px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-white:hover{
+    background-color: #6BAA75;
+    border: 1px solid #6BAA75;
+    color: var(--color-white);
+    box-shadow: 0 0 2px 1px  #85B98D;
+}
+
 .text-btn-size{
     font-size: 1rem;
 }
@@ -121,22 +155,6 @@ a i{
 .pointer{
     padding: 10px;
     cursor: pointer;
-}
-
-.buy-now{
-    text-decoration: underline;
-    color: var(--color-bg-botton);
-    padding: 5px 5px 5px 0 ;
-    cursor: pointer;
-}
-
-.buy-now:hover{
-    text-decoration: none;
-    background-color: #1971FF;
-    color: var(--color-white);
-    border: 1px solid #1971FF;
-    box-shadow: 0 0 2px #297AFF;
-
 }
 
 .cursor{
@@ -316,23 +334,6 @@ main{
 .img-section2 img{
     width: 100%;
 }
-.btn-white{
-    padding: 5px 10px;
-    background-color: var(--color-white);
-    color: var(--color-black);
-    display: block;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.btn-white:hover{
-    background-color: #6BAA75;
-    border: 1px solid #6BAA75;
-    color: var(--color-white);
-    box-shadow: 0 0 2px #85B98D;
-}
-
 .text-section2 h3{
     font-size: 2em;
 }
@@ -420,8 +421,43 @@ main{
     background-color: var(--color-clear-channel);
 }
     /* bonus quadratoni */
+.designit:hover{
+    border: 1px solid #BCDFB7;
+    box-shadow: 0 0 1px 15px  #E4F2E2 inset;
+}
+.asu:hover{
+    border: 1px solid #BF1055;
+    box-shadow: 0 0 1px 15px  #BF1055 inset;
+}
+.uof:hover{
+    border: 1px solid #35C5FF ;
+    box-shadow: 0 0 1px 15px  #35C5FF inset;
+}
+.topps:hover{
+    border: 1px solid #FF8282;
+    box-shadow: 0 0 1px 15px  #FF8282 inset;
+}
+.designit-central-bg:hover{
+    filter: invert(1);
+}
+.wb:hover{
+    border: 1px solid #FF3C58;
+    box-shadow: 0 0 1px 15px  #FF3C58 inset;
+}
 
+.hearst:hover{
+    border: 1px solid  #66A0FF;
+    box-shadow: 0 0 1px 15px   #66A0FF inset;
+}
 
+.lenelyp:hover{
+    border: 1px solid  #163EDE;
+    box-shadow: 0 0 1px 15px #163EDE inset;
+}
+.clearch:hover{
+    border: 1px solid  #FFEB96;
+    box-shadow: 0 0 1px 15px #FFEB96 inset;
+}
     /* SECTION6 */
 #sponsorship{
     background-color: var(--color-bg-hero);
